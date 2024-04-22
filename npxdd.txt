@@ -1,0 +1,36 @@
+npx sequelize-cli init
+cách sử dụng await async promise trong js 
+đến 54/139
+cách sử dụng orm trong js
+axios , redux  sequelize, emitter,lodash redux persist trong js
+cách tìm tài liệu a b c
+a là framwork như (express , npm , sequelize,.....)
+
+
+trong js this.props chỉ có giá trị khi trong return của render hoặc định nghĩa các hàm mà các hàm này chạy trong return của render
+
+
+良い悲しい日本の音楽
+tieng anh xong 39/71
+ngay 28/10 bo bot
+code xác thực trường  du lieu
+
+0947142367a
+dienquang
+
+cần  1 ảnh 
+1 độ dài video//
+ 1 title 
+1 lượt xem//
+ 1 thời gian đăng
+
+2023-12-17T05:55:22Z
+
+thoi loan 491683
+188483
+124946 
+100k -> 5k1 gem
+30k ->1530
+
+851-885
+45:51

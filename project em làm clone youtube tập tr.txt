@@ -1,0 +1,167 @@
+ project em làm clone youtube tập trung làm 
+
+phần lớn
+
+các chức năng youtube thường dùng đối với 
+
+người dùng cơ bản
+
+- Xem video .
+
+- Tìm kiếm: Cung cấp khả năng tìm kiếm nội 
+
+dung video dựa trên các từ khóa.
+
+-Tương tác: Bao gồm chức năng bình luận, đánh 
+
+giá, và chia sẻ video.
+
+vì https://rapidapi.com hạn chế ở 5 requests / 
+
+1 giây
+
+ và với Glavier/api/youtube138  tối đa 1 tháng 
+
+là 100 requests(1)
+
+ với Glavier/api/youtube-v311 tối đa 1 tháng 
+
+là 500 requests
+ 
+nên nếu lấy key ở mức Basic thì anh ,chị nên  
+
+lập 2 tài khoản để lấy 2 key trong đó:
+	
+	+ 1 key đăng ký Glavier/api/youtube138 
+
+ 	+ 1 key đăng ký Glavier/api/youtube-v311 
+
+còn nếu ở mức Pro trở lên anh chị có thể đăng 
+
+ký cả 2  với 1 tài khoản
+
+vì  sẽ thiếu  requests ở mức basic từ mức pro 
+
+sẽ không bị thiếu 
+
+đây không phải quảng cáo cho rapidapi chỉ là 
+
+hướng dẫn cách lấy key
+ 
+trước tiên phải đăng nhập có thể qua google 
+
+facebook
+ tại em đăng kí rồi chứ anh, chị nếu mới vào 
+
+cần phải đăng  ký
+
+đây là key cần lấy
+
+tùy theo chú thích em ghi key anh, chị đăng kí
+
+ youtube138 hay youtube-v311 tương ứng mà điền 
+
+vào
+
+
+
+tiếp theo  là các trang  em lập trình  
+
+trong project
+
+-trang chủ
+
+-trang tìm kiếm 
+
+-trang kênh youtube
+
+-trang video
+
+-trang danh sách phát
+
+- trang cộng đồng của kênh youtube
+
+- trang hiển thị không tìm thấy nội dung
+
+ ở trang kênh :
+
+vì để tải dữ liệu 1 kênh youtube tốn rất nhiều 
+
+requests cũng như thời 
+
+gian tải nên em  tải trước và hạn chế số video 
+
+trong danh sách 
+
+phát và tải 
+
+và lưu dữ liệu  các danh sách phát cần thiết 
+
+như danh sách phát có độ 
+
+đánh giá cao nhất , mới nhất ,cũ nhất ,danh 
+
+sách đã tạo 
+
+và với danh sánh phát cũ nhất do em tìm không 
+
+ra cách trực tiếp truy
+
+ xuất dữ liệu hoặc trong rapidapi không có  
+
+ nên em làm vòng lặp while với mỗi lần lặp sẽ 
+
+cộng thêm 2 tháng và
+
+ với giá trị ban đầu  là thời gian tham gia 
+
+youtube của kênh  và bắt
+
+ đầu truy suất  các video có thời gian tạo 
+
+trước thời gian tính trước
+
+ đó sao cho số lượng video lớn hơn hoặc bằng 
+
+số video em hạn chế ở 
+
+trên vì thế với những kênh như tham gia vào 
+
+2010 nhưng tới 2023 mới 
+
+đăng video sẽ lâu hơn và với cộng đồng ở các 
+
+kênh youtube có nhiều  loại 
+
+post và những loại khác nhưng mấy loại này em chỉ tình 
+
+cờ 1 lần vào 1 kênh  ngẫu
+
+ nhiên nên gặp được vì thế còn chưa code được, 
+
+còn lại  hầu như các 
+
+kênh đều là  loại post
+
+sau này em thành thạo redux hơn sẽ hoàn thiện 
+
+chức năng đăng  kí và 
+
+tương  tác với video và bài post
+
+em xin cảm ơn anh chị đã dành thời gian xem 
+
+video demo của em
+
+mong anh chị dành chút thời gian nhận xét và  
+
+chỉ ra 1 khuyết điểm 
+
+trọng yếu cần 
+
+thay đổi cải thiện ạ và gửi vào gmail 
+
+nhmnnhat@gmail.com
+
+
+
